@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recy"
+    android:name="com.example.ri1.ejerciciojorge.Recycler"
+    android:layout_weight="4"
+    tools:layout="@layout/fragment_recycler"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ins"
+        android:name="com.example.ri1.ejerciciojorge.UserIn"
+        android:layout_weight="6"
+        tools:layout="@layout/fragment_user_in"/>
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navbar"
+    android:name="com.example.ri1.ejerciciojorge.NavBar"
+    android:layout_weight="8"
+    tools:layout="@layout/fragment_nav_bar"/>
+
+</LinearLayout>
